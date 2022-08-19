@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "engines": {
-    "node":"16.x"
+    "node": "16.x"
   },
   "scripts": {
     "prebuild": "rimraf dist",
@@ -56,6 +56,7 @@
     "stream": "^0.0.2",
     "typeorm": "^0.3.7",
     "uuid": "^8.3.2",
+    "whatsapp-web.js": "^1.17.1",
     "whatsappcloudapi_wrapper": "^1.0.13"
   },
   "devDependencies": {

@@ -42,6 +42,48 @@ export class WhatsappController {
 
   }
 
+  // @Post()
+  // GetMessage(
+  //   @Body() request:WhatsAppCloaudAPIRequest,
+  //   @Res() response,
+  // ){
+  //   this.logger.log(`testMessage: ${JSON.stringify(request)}`);
+  //   if(response)
+  //   {
+  //     let body = response.body;
+  //     console.log(JSON.stringify(response.body, null, 2));
+
+  //     if (response.body.object)
+  //     {
+  //       if(
+  //         response.body.entry &&
+  //         response.body.entry[0].changes &&
+  //         response.body.entry[0].changes[0] &&
+  //         response.body.entry[0].changes[0].value.messages &&
+  //         response.body.entry[0].changes[0].value.messages[0]
+  //       ){
+  //         let phone_number_id =response.body.entry[0].changes[0].value.metadata.phone_number_id;
+  //         let from = response.body.entry[0].changes[0].value.messages[0].from; // extract the phone number from the webhook payload
+  //         let msg_body = response.body.entry[0].changes[0].value.messages[0].text.body;
+
+  //         let data = {
+  //           messaging_product: 'whatsapp',
+  //           to:from,
+  //           text:{body: "Ack: " + msg_body },
+  //           headers:{"Content-Type": "application/json"}
+  //         }
+
+  //         console.log({data});
+
+  //       }else{
+  //         console.log("No message found");
+  //       }
+  //     }
+  //   }
+      
+
+  // }
+
   @Get()
  async getVerifyToken(
    @Query('hub.mode') mode,

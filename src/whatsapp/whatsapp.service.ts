@@ -32,6 +32,12 @@ export class WhatsappService  {
       return data;
     }
 
+    async getMessage(request: WhatsAppCloaudAPIRequest) : Promise<AxiosResponse<WhatsAppCloaudAPIResponse>>{
+      const {data} = await firstValueFrom(this.httpService.post(this.baseUrl, request));
+
+      return
+    }
+
     async getVerifyToken() {
       return this.verifyToken;
     }
