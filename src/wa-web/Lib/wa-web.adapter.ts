@@ -7,17 +7,17 @@ export class WhatsappWebAdapter {
     async newClient(){
         const  client = new this.WhatsappWeb.Client({
                 authStrategy: new WhatsappWeb.NoAuth(),
-                puppeteer:{headless:true}
+                puppeteer:{headless:false}
             })
             client.initialize();
 
             
-            const QRCode = new Promise((resolve, reject) => {
-                client.on('qr', qr => { 
-                resolve(qr)})
-            })
-            const res =  await QRCode.then()
-            return res;
+            // const QRCode = new Promise((resolve, reject) => {
+            //     client.on('qr', qr => { 
+            //     resolve(qr)})
+            // })
+            // const res =  await QRCode.then()
+            // return res;
 
         }
  
