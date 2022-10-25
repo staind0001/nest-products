@@ -6,6 +6,11 @@ postgres/
 
 .env
 
+*.psd
+*.pdf
+/test
+/spec
+
 chatbot-account.json
 
 # Logs
