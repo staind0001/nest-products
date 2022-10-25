@@ -1,3 +1,4 @@
-2022/08/19-10:26:40.355 fd74 Reusing MANIFEST C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/MANIFEST-000001
-2022/08/19-10:26:40.356 fd74 Recovering log #3
-2022/08/19-10:26:40.356 fd74 Reusing old log C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/000003.log 
+2022/08/25-13:35:25.573 65e98 Log #3: 6 ops saved to Table #4 OK
+2022/08/25-13:35:26.585 65e98 Archiving C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/000003.log: IO error: C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/000003.log: Could not rename file: File currently in use. (ChromeMethodBFE: 14::RenameFile::2)
+2022/08/25-13:35:26.585 65e98 Table #4: 6 entries OK
+2022/08/25-13:35:27.598 65e98 Archiving C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/MANIFEST-000001: IO error: C:\Users\micha\OneDrive\Escritorio\Nest\e-shop\.wwebjs_auth\session\Default\File System\Origins/MANIFEST-000001: Could not rename file: File currently in use. (ChromeMethodBFE: 14::RenameFile::2)

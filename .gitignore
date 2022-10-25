@@ -6,6 +6,8 @@ postgres/
 
 .env
 
+chatbot-account.json
+
 # Logs
 logs
 *.log

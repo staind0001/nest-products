@@ -18,18 +18,20 @@ export class User {
     password:string;
 
     @Column('text')
-    fullName:string;
+        fullName:string;
 
     @Column('bool',{
         default:true,
         unique:true,
     })
+
     isActive:boolean;
 
     @Column('text',{
         array:true,
         default:['user']
     })
+    
     roles:string[];
 
     @BeforeInsert()

@@ -9,12 +9,14 @@ export class WaWebService {
   constructor(
     private readonly waweb : WhatsappWebAdapter
   ) {}
+
+  
  
   async executeWaWebService (){
 
-    const res  = await this.waweb.newClient();
+    const client  = await this.waweb.newClient();
 
-    return res;
+    return client;
   }
    
 
