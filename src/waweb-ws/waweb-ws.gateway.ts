@@ -5,7 +5,7 @@ import * as WhatsappWeb from 'whatsapp-web.js'
 import { ConnectedClientsWaWeb } from './interfaces/waweb.interfaces';
 import { NewMessageWaWebDto } from './dtos/new-message.dto';
 import { cleanNumber, isvalidNumber } from 'src/wa-web/Lib/handle';
-import { botResponse } from './dialogFlow/dialogflow';
+
 
 @WebSocketGateway({ cors: true, namespace: '/waweb-ws' })
 export class WawebWsGateway
@@ -72,9 +72,7 @@ export class WawebWsGateway
 
         // clientwaweb.sendMessage(phoneNumber,media)
         // if(!NewMessage.length)return;
-        const botRes = await botResponse(NewMessage)
-        
-        console.log(botRes);
+
 
 
         //TODO : save message
