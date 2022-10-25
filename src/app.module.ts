@@ -13,7 +13,6 @@ import { AuthModule } from './auth/auth.module';
 import { MessagesWsModule } from './messages-ws/messages-ws.module';
 import { WhatsappModule } from './whatsapp/whatsapp.module';
 import { WsWhatsappModule } from './ws-whatsapp/ws-whatsapp.module';
-import { WhatsappcloudapiWrapperModule } from './whatsappcloudapi_wrapper/whatsappcloudapi_wrapper.module';
 import { WaWebModule } from './wa-web/wa-web.module';
 import { WawebWsModule } from './waweb-ws/waweb-ws.module';
 import { HdkoSocketModule } from './hdko-socket/hdko-socket.module';
@@ -66,8 +65,6 @@ import { HdkoSocketModule } from './hdko-socket/hdko-socket.module';
     WhatsappModule,
 
     WsWhatsappModule,
-
-    WhatsappcloudapiWrapperModule,
 
     WaWebModule,
 
